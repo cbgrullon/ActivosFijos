@@ -1,0 +1,23 @@
+{
+  "name": "activosfijos",
+  "version": "1.0.0",
+  "description": "Proyecto Activos Fijos",
+  "main": "(server.js)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbgrullon/ActivosFijos.git"
+  },
+  "author": "Christopher B. Grullon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbgrullon/ActivosFijos/issues"
+  },
+  "homepage": "https://github.com/cbgrullon/ActivosFijos#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.17"
+  }
+}
