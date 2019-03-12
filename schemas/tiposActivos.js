@@ -1,5 +1,5 @@
 'use strict'
-const schema = require('mongoose').Schema;
+const Schema = require('mongoose').Schema;
 const tiposActivosSchema = Schema({
     descripcion:String,
     cuentaCompra:String,

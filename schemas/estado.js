@@ -1,6 +1,8 @@
 'use strict'
-const schema= require('mongoose').Schema;
+const mongoose = require('mongoose');
+const schema=mongoose.Schema;
 const estadoSchema = schema({
-    descripcion:String
+    descripcion:String,
+    abreviatura:String
 });
-module.exports=exports=estadoSchema;
+module.exports=exports=mongoose.model('estado',estadoSchema);
